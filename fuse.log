@@ -1,0 +1,41 @@
+Running: E:\Program_file\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o E:/Xilinx/workspace/pcpu/single_clk_cpu/test2_isim_beh.exe -prj E:/Xilinx/workspace/pcpu/single_clk_cpu/test2_beh.prj work.test2 work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "E:/Xilinx/workspace/pcpu/single_clk_cpu/signext.v" into library work
+Analyzing Verilog file "E:/Xilinx/workspace/pcpu/single_clk_cpu/regfile.v" into library work
+Analyzing Verilog file "E:/Xilinx/workspace/pcpu/single_clk_cpu/mux2.v" into library work
+Analyzing Verilog file "E:/Xilinx/workspace/pcpu/single_clk_cpu/maindec.v" into library work
+Analyzing Verilog file "E:/Xilinx/workspace/pcpu/single_clk_cpu/flopr.v" into library work
+Analyzing Verilog file "E:/Xilinx/workspace/pcpu/single_clk_cpu/aludec.v" into library work
+Analyzing Verilog file "E:/Xilinx/workspace/pcpu/single_clk_cpu/alu.v" into library work
+Analyzing Verilog file "E:/Xilinx/workspace/pcpu/single_clk_cpu/adder.v" into library work
+Analyzing Verilog file "E:/Xilinx/workspace/pcpu/single_clk_cpu/datapath.v" into library work
+Analyzing Verilog file "E:/Xilinx/workspace/pcpu/single_clk_cpu/controller.v" into library work
+Analyzing Verilog file "E:/Xilinx/workspace/pcpu/single_clk_cpu/mips.v" into library work
+Analyzing Verilog file "E:/Xilinx/workspace/pcpu/single_clk_cpu/test2.v" into library work
+Analyzing Verilog file "E:/Program_file/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module maindec
+Compiling module aludec
+Compiling module controller
+Compiling module flopr
+Compiling module adder
+Compiling module mux2
+Compiling module mux2(WIDTH=3)
+Compiling module regfile
+Compiling module mux2(WIDTH=16)
+Compiling module signext
+Compiling module alu
+Compiling module datapath
+Compiling module mips
+Compiling module test2
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 8 sub-compilation(s) to finish...
+Compiled 15 Verilog Units
+Built simulation executable E:/Xilinx/workspace/pcpu/single_clk_cpu/test2_isim_beh.exe
+Fuse Memory Usage: 26700 KB
+Fuse CPU Usage: 531 ms
